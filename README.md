@@ -44,26 +44,25 @@ educational**, making it easy for students and institutions to adopt.
 4. **Drying** – A heated roller and blower remove the remaining moisture, producing usable recycled paper sheets.  
 
 ---
-
 ## Project Figures
 
 **Working Principle (Page 5)**  
-![Working Principle - Page 5](images/page-05-working-principle.png)
+![Working Principle](paper-recycling-machine/images/page-05-working-principle.png)
 
 **Working Principle (Page 6)**  
-![Working Principle - Page 6](images/page-06-working-principle.png)
+![Working Principle](paper-recycling-machine/images/page-06-working-principle.png)
 
 **Component Illustration (Page 13)**  
-![Component Illustration](images/page-13-figure.png)
+![Component Illustration](paper-recycling-machine/images/page-13-figure.png)
 
 **Working Principle (Page 15)**  
-![Working Principle - Page 15](images/page-15-working-principle.png)
+![Working Principle](paper-recycling-machine/images/page-15-working-principle.png)
 
 **Front View (Page 16)**  
-![Front View](images/page-16-front-view.png)
+![Front View](paper-recycling-machine/images/page-16-front-view.png)
 
 **Top View (Page 17)**  
-![Top View](images/page-17-top-view.png)
+![Top View](paper-recycling-machine/images/page-17-top-view.png)
 
 
 ---
