@@ -1,98 +1,99 @@
-# Paper-Recycling-Machine
-A compact, low-cost paper recycling machine designed and fabricated as my final year engineering project to reduce waste and promote sustainability
-# DESIGN AND FABRICATION OF PAPER RECYCLING MACHINE
+# Paper Recycling Machine — Final Year Project
 
-This is my final year project (2019–2020) submitted to **Visvesvaraya Technological University, Belagavi**,  
-carried out in the **Department of Mechanical Engineering, Srinivas Institute of Technology, Mangaluru**.
+Author: **Akash P Raj**  
+Duration: **1 month**  
 
 ---
 
-## Author
-
-- **Akash P Raj (4SN16ME012)**  
-
-**Guide:** Prof. Gangadhara Rao, Associate Professor  
+## Project Overview
+This project presents the **design and fabrication of a paper recycling machine**. The machine combines pulping, forming, press rolling, and drying into one compact system.  
+It is aimed at schools, colleges, offices, and small industries where waste-paper recycling is essential but large industrial systems are not feasible.
 
 ---
 
-## Project Description
+## Workflow Diagram
 
-This project is about designing and fabricating a **small-scale paper recycling machine** that can be
-used in institutions such as schools and colleges. Paper waste is generated in large amounts in
-such places, and recycling it on-site is both cost-effective and environmentally beneficial.
-
-I designed a compact unit that performs four main processes of paper recycling:  
-**pulping, forming, pressing, and drying**. The machine was built to be **low-cost, simple, and
-educational**, making it easy for students and institutions to adopt.
+![Workflow](assets/page1_img1.jpeg)
 
 ---
 
-## Objectives
+## Machine Design (CAD Views)
 
-- To design and fabricate an economical and efficient paper recycling unit.  
-- To recycle waste paper generated within institutions.  
-- To raise awareness of sustainability and recycling among students.  
-- To reduce the use of fresh wood pulp and thereby help in reducing deforestation.  
+### Front View
+![Front View](assets/page13_img1.jpeg)
 
----
+### Isometric View
+![Isometric View](assets/page15_img1.jpeg)
 
-## Working Principle
+### Top View
+![Top View](assets/page16_img1.jpeg)
 
-1. **Pulping** – Waste paper is shredded and mixed with hot water and small additives in a pulper to create fiber slurry.  
-2. **Forming** – The slurry is spread on a mesh conveyor where water drains naturally.  
-3. **Press Rolling** – Rollers press the wet sheet to remove more water.  
-4. **Drying** – A heated roller and blower remove the remaining moisture, producing usable recycled paper sheets.  
-
----
-## Project Figures
-
-**working principle (Page 5)**  
-![working principle](paper-recycling-machine/images/page-05-working-principle.png)
-
-**working principle (Page 6)**  
-![working principle](paper-recycling-machine/images/page-06-working-principle.png)
-
-**Component Illustration (Page 13)**  
-![Component Illustration](paper-recycling-machine/images/page-13-figure.png)
-
-**working principle (Page 15)**  
-![working principle](paper-recycling-machine/images/page-15-working-principle.png)
-
-**front view (Page 16)**  
-![front view](paper-recycling-machine/images/page-16-front-view.png)
-
-*top view (Page 17)**  
-![top view](paper-recycling-machine/images/page-17-top-view.png)
-
+### Side View
+![Side View](assets/page16_img2.jpeg)
 
 ---
 
-## Results & Conclusion
+## Process Flow
 
-- The machine I designed and built was successful in producing recycled paper sheets.  
-- It is a **low-cost solution** that can be adopted in colleges and schools for practical demonstrations.  
-- The project also serves as an educational model to spread awareness about recycling and environmental protection.  
-
----
-
-## Future Scope
-
-- Semi-automatic controls can be added for faster and more efficient operation.  
-- Improved heating and drying methods can increase production rate.  
-- The design can be scaled up for use in small industries or community-level recycling.  
-- Further research can be done on using natural additives to improve pulp quality.  
+1. **Pulping:** Shredded waste paper is mixed with water and chemicals in the hydropulper.  
+2. **Forming:** The slurry drains by gravity on a felt conveyor to form a wet sheet.  
+3. **Press Rolling:** Rollers squeeze out excess water.  
+4. **Drying:** A heated cylinder and airflow dry the sheet.
 
 ---
 
-## References
+## Major Components
 
-1. T. K. Sengupta, *Process of Making Handmade Paper*, Khadi and Village Industries Commission, India.  
-2. Pratima Bajpai, *Recycling and Deinking of Recovered Paper*, Elsevier, 2014.  
-3. Departmental and project resources from Visvesvaraya Technological University.  
+- Hopper  
+- Pulley & belt drive  
+- AC motor (1 HP, 3-phase) with gearbox (42:1 reduction)  
+- MS frame and bearings  
+- Pneumatic cylinder with compressor  
+- Felt conveyor, idler rollers, press rollers  
+- Solenoid valve and basic control system  
 
 ---
 
-## Author’s Note
+## Example Calculations
 
-This project gave me hands-on experience in design, fabrication, and problem solving. It also
-taught me how engineering can directly contribute to sustainability and environmental protection.
+![Calculations](assets/page17_img1.png)
+
+---
+
+## Bill of Materials
+
+| Item                  | Material        | Qty |
+|-----------------------|-----------------|-----|
+| AC Motor (1 HP)       | Aluminium       | 1   |
+| Gearbox (42:1)        | —               | 1   |
+| Felt Conveyor         | Nylon/PVC       | 1   |
+| Press Rollers         | Mild Steel      | 2   |
+| Idler Rollers         | Mild Steel      | 2   |
+| Bearings              | —               | 2   |
+| Frame                 | Mild Steel      | 1   |
+| Misc. (bolts, belts)  | —               | —   |
+
+---
+
+## Prototype & Fabrication
+
+![Prototype](assets/page18_img1.jpeg)
+
+---
+
+## Applications
+- Schools and colleges  
+- Offices and small industries  
+- Laboratory setups for paper research  
+
+---
+
+## Safety Notes
+- Guard rotating parts (rollers, belts, pulleys)  
+- Wear PPE when handling chemicals or hot surfaces  
+- Depressurize pneumatic system before maintenance  
+
+---
+
+## License
+Released under the **MIT License**.
