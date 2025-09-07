@@ -46,23 +46,23 @@ educational**, making it easy for students and institutions to adopt.
 ---
 ## Project Figures
 
-**Working Principle (Page 5)**  
-![Working Principle](paper-recycling-machine/images/page-05-working-principle.png)
+**working principle (Page 5)**  
+![working principle](paper-recycling-machine/images/page-05-working-principle.png)
 
-**Working Principle (Page 6)**  
-![Working Principle](paper-recycling-machine/images/page-06-working-principle.png)
+**working principle (Page 6)**  
+![working principle](paper-recycling-machine/images/page-06-working-principle.png)
 
 **Component Illustration (Page 13)**  
 ![Component Illustration](paper-recycling-machine/images/page-13-figure.png)
 
-**Working Principle (Page 15)**  
-![Working Principle](paper-recycling-machine/images/page-15-working-principle.png)
+**working principle (Page 15)**  
+![working principle](paper-recycling-machine/images/page-15-working-principle.png)
 
-**Front View (Page 16)**  
-![Front View](paper-recycling-machine/images/page-16-front-view.png)
+**front view (Page 16)**  
+![front view](paper-recycling-machine/images/page-16-front-view.png)
 
-**Top View (Page 17)**  
-![Top View](paper-recycling-machine/images/page-17-top-view.png)
+*top view (Page 17)**  
+![top view](paper-recycling-machine/images/page-17-top-view.png)
 
 
 ---
