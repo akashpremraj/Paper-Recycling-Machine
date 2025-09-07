@@ -13,27 +13,6 @@ It is aimed at schools, colleges, offices, and small industries where a large-sc
 
 ---
 
-## 🛠 Workflow Diagram
-![Workflow](assets/page1_img1.jpeg)
-
----
-
-## 🏗 Machine Design (CAD Views)
-
-### Front View
-![Front View](assets/page13_img1.jpeg)
-
-### Isometric View
-![Isometric View](assets/page15_img1.jpeg)
-
-### Top View
-![Top View](assets/page16_img1.jpeg)
-
-### Side View
-![Side View](assets/page16_img2.jpeg)
-
----
-
 ## ⚙️ Process Flow
 
 1. **Pulping** — Shredded waste paper is mixed with water in the hydropulper.  
@@ -132,12 +111,6 @@ v = rpm × C = 42.86 × 43.99 cm/min = **18.85 m/min**
 
 ---
 
-## 🧪 Prototype & Fabrication
-
-![Prototype](assets/page18_img1.jpeg)
-
----
-
 ## 📅 Timeline (One Month)
 
 - **Week 1 (June 5–11):** Problem definition, requirements, initial CAD sketches  
@@ -155,6 +128,36 @@ v = rpm × C = 42.86 × 43.99 cm/min = **18.85 m/min**
 - Depressurize pneumatic systems before maintenance  
 
 ---
+## ✅ Advantages
+
+- Compact design suitable for small-scale use  
+- Low-cost construction with readily available materials  
+- Energy-efficient operation (1 HP motor with gearbox)  
+- Easy to maintain and operate  
+- Reduces environmental waste by recycling used paper  
+- Quick turnaround — sheets produced in minutes  
+
+---
+
+## ⚠️ Disadvantages
+
+- Limited production capacity (small batch size only)  
+- Not suitable for industrial-scale recycling  
+- Requires manual feeding and supervision  
+- Drying section efficiency depends on local conditions (temperature, humidity)  
+- Paper quality may not match commercial-grade standards  
+
+---
+
+## 🔭 Scope for Future Work
+
+- Automating slurry feeding and sheet cutting  
+- Increasing production capacity with wider conveyor and larger rollers  
+- Integration of temperature-controlled dryer for consistent sheet quality  
+- Addition of sensors and PLC for semi-automatic operation  
+- Developing portable/mobile versions for schools and community centers  
+- Using renewable energy (solar power) to improve sustainability  
+
 
 ## ✍️ Author’s Note
 
