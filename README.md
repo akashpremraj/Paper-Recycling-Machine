@@ -48,22 +48,23 @@ educational**, making it easy for students and institutions to adopt.
 ## Project Figures
 
 **Working Principle (Page 5)**  
-![Figure from page 5](images/page-05-working-principle.png)
+![Working Principle - Page 5](images/page-05-working-principle.png)
 
 **Working Principle (Page 6)**  
-![Figure from page 6](images/page-06-working-principle.png)
+![Working Principle - Page 6](images/page-06-working-principle.png)
 
 **Component Illustration (Page 13)**  
-![Figure from page 13](images/page-13-figure.png)
+![Component Illustration](images/page-13-figure.png)
 
 **Working Principle (Page 15)**  
-![Figure from page 15](images/page-15-working-principle.png)
+![Working Principle - Page 15](images/page-15-working-principle.png)
 
 **Front View (Page 16)**  
 ![Front View](images/page-16-front-view.png)
 
 **Top View (Page 17)**  
 ![Top View](images/page-17-top-view.png)
+
 
 ---
 
