@@ -1,4 +1,4 @@
-# Eco Paper Recycler — Final Year Project
+# Paper Recycling Machine — Final Year Project
 
 **Author:** Akash P Raj (USN: 4SN16ME012)  
 **Guide:** Prof. Gangadhara Rao, Associate Professor, SIT Mangalore  
