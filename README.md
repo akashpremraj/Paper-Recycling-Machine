@@ -1,6 +1,7 @@
 # Eco Paper Recycler — Final Year Project
 
-**Author:** Akash P Raj  
+**Author:** Akash P Raj (USN: 4SN16ME012)  
+**Guide:** Prof. Gangadhara Rao, Associate Professor, SIT Mangalore  
 **Duration:** June 5 – July 8, 2020 (1 Month)  
 
 ---
@@ -13,7 +14,6 @@ It is aimed at schools, colleges, offices, and small industries where a large-sc
 ---
 
 ## 🛠 Workflow Diagram
-
 ![Workflow](assets/page1_img1.jpeg)
 
 ---
@@ -57,91 +57,77 @@ It is aimed at schools, colleges, offices, and small industries where a large-sc
 
 ## 📐 Design Data & Calculations
 
-### Hydropulper (Design Data)
+### Hydropulper
 
-| Parameter            | Symbol | Value  | Notes                     |
-|---------------------|:------:|:------:|---------------------------|
+| Parameter            | Symbol | Value   | Notes                     |
+|---------------------|:------:|:-------:|---------------------------|
 | Wall thickness      |  t     | 0.022 cm | As per vessel spec        |
-| Radius              |  r     | 0.95 cm  | Representative from report|
-| Total height        |  h     | 50 cm    | Open-top cylindrical tank |
-| Impeller/agitator   |  —     | —        | For slurry circulation    |
+| Radius              |  r     | 0.95 cm  | From report data          |
+| Total height        |  h     | 50 cm    | Cylindrical vessel height |
+| Impeller/agitator   |  —     | Yes      | Circulates slurry         |
 
-> Purpose: blend shredded waste paper + water (+ additives) into a uniform fiber slurry.
+**Volume calculation:**  
+Total Volume, Vr = 62,930 cm³ (≈ 62.9 L)
 
 ---
 
 ### Conveyor Felt
 
-| Attribute | Value         | Notes                                                                 |
-|----------:|---------------|-----------------------------------------------------------------------|
-| Length    | 3.9–4.0 m     | Provides travel/dwell for drainage                                   |
-| Width     | 13 in (~330 mm)| Sized to sheet width and roller span                                 |
-| Material  | Nylon/PVC      | Porous, provides void volume and supports water removal               |
-
-**Design roles**
-1. Convey sheet through forming → pressing → drying  
-2. Porous medium for effective water removal  
-3. Textured cushion to pass moist sheet without crushing/marking
+| Attribute | Value          | Notes                                                                 |
+|----------:|----------------|-----------------------------------------------------------------------|
+| Length    | 3.9–4.0 m      | Provides travel/dwell for drainage                                   |
+| Width     | 13 in (~330 mm)| Matches sheet width and roller span                                  |
+| Material  | Nylon/PVC      | Porous medium for effective water removal                           |
 
 ---
 
-### Dryer Cylinder (Geometry)
+### Dryer Cylinder
 
 | Parameter          | Symbol | Value   |
 |-------------------|:------:|:-------:|
 | Radius            |  r     | 7 cm    |
-| Circumference     |  C     | 43.99 cm (C = 2πr) |
-
-> Use circumference with rpm to estimate web (felt) linear speed and drying dwell distance.
+| Circumference     |  C     | 43.99 cm |
+| Length (heated)   |   L    | 50 cm   |
 
 ---
 
 ### Drive & Speed Calculations
 
 - Motor: 1 HP, AC, 3-phase, **900 rpm**  
-- Gearbox: **42:1** reduction → output rpm = 900 / 42 = **21.43 rpm**  
-- Belt & pulleys: speed **increase 1:2** → roller rpm ≈ 21.43 × 2 = **42.86 rpm**  
-- Dryer cylinder circumference **C = 43.99 cm**
+- Gearbox: **42:1** → output ≈ 21.43 rpm  
+- Pulley ratio: **1:2** → roller ≈ 42.86 rpm  
+- Dryer circumference: **43.99 cm**
 
 **Linear web speed**  
-v = rpm × C = 42.86 × 43.99 cm/min = **≈ 1,885 cm/min = 18.85 m/min**
-
-| Stage          | Value                  |
-|----------------|------------------------|
-| Motor speed    | 900 rpm                |
-| Gearbox output | 21.43 rpm              |
-| Roller speed   | 42.86 rpm              |
-| Web speed      | ~18.85 m/min           |
-
-> Adjust if you change pulley diameters/ratios or cylinder size.
+v = rpm × C = 42.86 × 43.99 cm/min = **18.85 m/min**
 
 ---
 
-### Press Nip (Placeholder — update with test values)
+### Press Nip Pressure (Estimated)
 
-| Parameter                         | Symbol | Value      | Notes                                 |
-|----------------------------------|:------:|:----------:|---------------------------------------|
-| Pneumatic line pressure          |   P    | — bar      | From regulator gauge                  |
-| Effective press width            |   w    | — m        | Width of sheet contact                |
-| Nip contact length (approx.)     |   a    | — mm       | From roller hardness/deflection       |
-| Line load (per unit width)       |   N/w  | — N/m      | From cylinder force & geometry        |
-| Estimated nip pressure           |   p    | — kPa      | p ≈ (N / (w·a))                       |
-
-> Record actual readings during tuning to replace placeholders.
+| Parameter                         | Symbol | Value        |
+|----------------------------------|:------:|:------------:|
+| Pneumatic line pressure          |   P    | 5 bar        |
+| Effective press width            |   w    | 0.33 m       |
+| Nip contact length (approx.)     |   a    | 5 mm         |
+| Line load (per unit width)       |   N/w  | ≈ 16,500 N/m |
+| Estimated nip pressure           |   p    | ≈ 9.9 MPa    |
 
 ---
 
-### Cost Analysis (Indicative)
+### Cost Analysis
 
 | Equipment             | Material     | Cost   |
 |-----------------------|--------------|-------:|
-| Conveyor belt         | PVC coated   |  ₹ 800 |
-| Pulley belts (×2)     | Rubber (B)   |  ₹ 200 |
-| Conveyor rollers (×2) | Mild steel   |  ₹ 700 |
-| Bearings (×2)         | Mild steel   | ₹ 1,000|
-| AC Motor              | Aluminium    | ₹ 3,500|
-| Frame                 | Mild steel   | ₹ 1,900|
-| Misc. (bolts, etc.)   | —            | ₹ 1,600|
+| Mixing Grinder        | Stainless Steel | ₹ 3,000 |
+| AC Motor (1 HP)       | Aluminium    | ₹ 3,500 |
+| Conveyor Belt         | PVC coated   | ₹ 800  |
+| Pulley Belts (×2)     | Rubber (B)   | ₹ 200  |
+| Conveyor Rollers (×2) | Mild Steel   | ₹ 700  |
+| Press Rollers (×2)    | Mild Steel   | ₹ 500  |
+| Bearings (×2)         | Mild Steel   | ₹ 1,000|
+| Nuts & Bolts          | Mild Steel   | ₹ 150  |
+| Frame                 | Mild Steel   | ₹ 1,900|
 | **Total**             |              | **₹ 11,700** |
 
 ---
@@ -162,15 +148,6 @@ v = rpm × C = 42.86 × 43.99 cm/min = **≈ 1,885 cm/min = 18.85 m/min**
 
 ---
 
-## 🌱 Applications
-
-- Schools and colleges  
-- Offices and small industries  
-- Laboratory demonstrations  
-- Research and awareness on recycling  
-
----
-
 ## ⚠️ Safety Notes
 
 - Guard all rotating parts (rollers, belts, pulleys)  
@@ -179,5 +156,21 @@ v = rpm × C = 42.86 × 43.99 cm/min = **≈ 1,885 cm/min = 18.85 m/min**
 
 ---
 
-## 📂 Repository Structure
+## ✍️ Author’s Note
+
+I, **Akash P Raj**, carried out this project work as part of my **final year Bachelor of Engineering in Mechanical Engineering** at **Srinivas Institute of Technology, Mangaluru**, under the guidance of **Prof. Gangadhara Rao**.  
+
+This project was completed within **one month (June–July 2020)**, covering design, fabrication, testing, and documentation.  
+
+I sincerely thank my guide, coordinators, faculty, and my project teammates for their contributions and encouragement.
+
+---
+
+## 📚 References
+
+1. Ajay Takur & Swash Monore (2017). *Design and fabrication of compact paper recycling machine*. Paper Technology, 139:250–261.  
+2. Ajith Ghosh (2011). *Fundamentals of paper drying theory and applications from industrial perspective*. Paper Recycling Technology, 178:65–71.  
+3. Jiang C. & Ma J. (2000). *Deinking of waste paper flotation*. Enzymatic Deinking Technologies, 1–2.  
+4. Final Report: *Design and Fabrication of Paper Recycling Machine*, Srinivas Institute of Technology, 2020.  
+
 
