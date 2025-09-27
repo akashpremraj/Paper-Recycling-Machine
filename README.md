@@ -262,20 +262,39 @@ At 5 bar with two cylinders across a 330 mm width, an ~**83 mm bore** pair gives
 
 ---
 
-### Cost Analysis
 
-| Equipment             | Material     | Cost   |
-|-----------------------|--------------|-------:|
-| Mixing Grinder        | Stainless Steel | ₹ 3,000 |
-| AC Motor (1 HP)       | Aluminium    | ₹ 3,500 |
-| Conveyor Belt         | PVC coated   | ₹ 800  |
-| Pulley Belts (×2)     | Rubber (B)   | ₹ 200  |
-| Conveyor Rollers (×2) | Mild Steel   | ₹ 700  |
-| Press Rollers (×2)    | Mild Steel   | ₹ 500  |
-| Bearings (×2)         | Mild Steel   | ₹ 1,000|
-| Nuts & Bolts          | Mild Steel   | ₹ 150  |
-| Frame                 | Mild Steel   | ₹ 1,900|
-| **Total**             |              | **₹ 11,700** |
+## 💰 Cost Analysis (indicative, India 2020 prices)
+
+> Notes: Bench-scale prototype; prices are **indicative** and exclude GST/shipping.  
+> Major cost drivers you didn’t count earlier: **gearbox, pneumatics, heater/controls, compressor, guards, wiring**.
+
+| Item | Qty | Unit (₹) | Subtotal (₹) | Notes |
+|---|---:|---:|---:|---|
+| Mixing grinder (hydropulper) | 1 | 3,000 | 3,000 | Stainless steel jar |
+| AC motor 1 HP, 3-phase, 900 rpm | 1 | 3,500 | 3,500 | With starter/overload |
+| Gearbox 42:1 | 1 | 6,500 | 6,500 | Inline or worm |
+| Pulley & belts kit (1:2) | 1 | 800 | 800 | Guarded |
+| Conveyor felt 330 mm × 4 m | 1 | 1,500 | 1,500 | Nylon/PVC porous |
+| Conveyor idlers (pair) | 1 | 700 | 700 | With shafts |
+| Press rollers (pair) | 1 | 1,200 | 1,200 | Machined MS |
+| Bearings UCFL (4) | 1 | 1,000 | 1,000 | Self-aligning |
+| Pneumatic cylinders (pair) | 1 | 4,400 | 4,400 | 63–80 mm bore |
+| Solenoid valve 5/2, 24 V | 1 | 1,200 | 1,200 | With fittings |
+| Bench air compressor | 1 | 7,000 | 7,000 | Oil-less, with regulator |
+| Heated dryer drum | 1 | 2,500 | 2,500 | Ø140 × 500 mm |
+| Heater + SSR + thermostat | 1 | 3,000 | 3,000 | Thermal cut-out |
+| Electrical panel & wiring | 1 | 4,000 | 4,000 | E-stop, MCBs, indicators |
+| MS frame + fabrication | 1 | 3,500 | 3,500 | Cutting, welding, drilling |
+| Guards & signage | 1 | 1,200 | 1,200 | Mesh plates, labels |
+| Fasteners, hoses, fittings | 1 | 1,000 | 1,000 | Assorted |
+| Paint & consumables | 1 | 600 | 600 | Primer, enamel |
+| **Materials Subtotal** |  |  | **46,600** |  |
+| **Contingency (10%)** |  |  | **4,660** | Prototype uncertainty |
+| **Assembly labour (bench)** |  |  | **5,000** | Fabrication & wiring |
+| **Grand Total** |  |  | **₹ 56,260** | ~£536 @ ₹105/£ (indicative) |
+
+> Keep this section concise in the README. The full, editable list sits in **`docs/bom_costs.csv`**.
+
 
 ---
 
