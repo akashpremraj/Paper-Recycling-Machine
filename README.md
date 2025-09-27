@@ -450,19 +450,28 @@ gantt
 
 ## ✍️ Author’s Note
 
-I, **Akash P Raj**, carried out this project work as part of my **final year Bachelor of Engineering in Mechanical Engineering** at **Srinivas Institute of Technology, Mangaluru**, under the guidance of **Prof. Gangadhara Rao**.  
+I, **Akash P Raj**, completed this work as part of my **Bachelor of Engineering (Mechanical)** at
+**Srinivas Institute of Technology, Mangaluru**, under the guidance of **Prof. Gangadhara Rao**.
 
-This project was completed within **one month (June–July 2020)**, covering design, fabrication, testing, and documentation.  
+The project ran for **one month (June–July 2020)**, covering design decisions, basic calculations,
+fabrication, dry/wet testing, and documentation. I’m grateful to my guide, coordinators, faculty, and
+project teammates for their support and encouragement.
 
-I sincerely thank my guide, coordinators, faculty, and my project teammates for their contributions and encouragement.
+> **Provenance & ethics:** This repository reconstructs my original BE project for public viewing.
+> Some artefacts (datasets, diagrams, photos) are recreated or redrawn for clarity and to avoid sharing
+> any confidential information. All safety guidance here is for **bench-scale demonstrations** only.
 
 ---
 
 ## 📚 References
 
-1. Ajay Takur & Swash Monore (2017). *Design and fabrication of compact paper recycling machine*. Paper Technology, 139:250–261.  
-2. Ajith Ghosh (2011). *Fundamentals of paper drying theory and applications from industrial perspective*. Paper Recycling Technology, 178:65–71.  
-3. Jiang C. & Ma J. (2000). *Deinking of waste paper flotation*. Enzymatic Deinking Technologies, 1–2.  
-4. Final Report: *Design and Fabrication of Paper Recycling Machine*, Srinivas Institute of Technology, 2020.  
+> Note: Verify spellings/journal names before finalising (placeholders kept where unsure).
+
+1. Thakur, A., & Monroe, S. (2017). *Design and fabrication of a compact paper recycling machine*. **Paper Technology**, 139, 250–261.
+2. Ghosh, A. (2011). *Fundamentals of paper drying: Theory and applications from an industrial perspective*. **Paper Recycling Technology**, 178, 65–71.
+3. Jiang, C., & Ma, J. (2000). *Deinking of waste paper: Flotation methods*. **Enzymatic Deinking Technologies**, 1–2.
+4. **Final Report** — *Design and Fabrication of Paper Recycling Machine*. Srinivas Institute of Technology, 2020.  
+   PDF: `docs/Final_Report_Paper_Recycling_Machine_2020.pdf`
+
 
 
