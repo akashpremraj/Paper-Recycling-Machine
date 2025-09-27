@@ -399,6 +399,25 @@ gantt
 
 ---
 
+## 🧪 Results & Reflection
+
+**What we demonstrated (bench scale):**
+- Continuous forming on a 330 mm felt with matched press + dryer speeds.
+- Stable sheet hand-off after drying; repeatable threading and take-up.
+- Safe operation under guards with routine pre-start and shutdown checks (per SOP).
+
+**Key observations**
+- Press line load had the biggest effect on outlet moisture; improving felt cleanliness reduced variability.
+- Dryer warm-up and ambient humidity noticeably affected dry-to-touch time; a simple hood helped.
+- Belt tracking marks made quick work of alignment; adding a squeegee reduced fibre carry-over.
+
+**Reflection (engineering takeaways)**
+- A small change in **nip contact length** (softer covers) delivered more benefit than cranking pressure.
+- Matching **surface speeds** eliminated shear marks and improved formation uniformity.
+- Future effort should prioritise **closed-loop dryer control** and **auto slurry feed** to stabilise quality.
+
+---
+
 ## 🔭 Scope for Future Work
 
 ### 1) Automation & Controls
