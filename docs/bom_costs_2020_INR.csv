@@ -1,0 +1,23 @@
+Subsystem,Item,Spec/Model,Qty,Unit Cost (INR),Subtotal (INR),Notes
+Hydropulper,Mixing grinder,Stainless steel jar,1,3000,3000,—
+Drive,AC motor,1 HP 3-phase 900 rpm,1,3500,3500,With starter/overload
+Drive,Gearbox,42:1 inline/worm,1,6500,6500,Output ~21.4 rpm
+Drive,Pulleys & belts,1:2 ratio kit,1,800,800,Guarded
+Forming,Conveyor felt,330 mm × 4 m (Nylon/PVC),1,1500,1500,Porous
+Forming,Conveyor idlers,Pair with shafts,1,700,700,—
+Press,Press rollers,Pair (machined MS),1,1200,1200,Adjustable gap
+Bearings,Bearing units,UCFL (4x),1,1000,1000,Self-aligning
+Pneumatics,Cylinders,63–80 mm bore (pair),1,4400,4400,See press-calcs
+Pneumatics,Solenoid valve,5/2 way 24 V,1,1200,1200,With fittings
+Pneumatics,Compressor,Bench, oil-less,1,7000,7000,Regulator + gauge
+Dryer,Heated drum,Ø140 × 500 mm,1,2500,2500,Fabricated
+Dryer,Heater & controls,SSR + thermostat + cut-out,1,3000,3000,—
+Electrical,Panel & wiring,IP enclosure + MCBs + E-stop,1,4000,4000,Indicators included
+Structure,MS frame,Fabrication (cut/weld/drill),1,3500,3500,—
+Safety,Guards & signage,Mesh/plates + labels,1,1200,1200,Nip + HOT labels
+Misc,Fasteners/hoses/fittings,Assorted,1,1000,1000,—
+Misc,Paint & consumables,Primer + enamel,1,600,600,—
+,,Materials Subtotal,, ,46600,
+,,Contingency (10%),, ,4660,Prototype allowance
+,,Assembly labour (bench),, ,5000,Fab + wiring
+,,Grand Total,, ,56260,"≈ £536 at ₹105/£ (indicative)"
