@@ -293,8 +293,7 @@ At 5 bar with two cylinders across a 330 mm width, an ~**83 mm bore** pair gives
 | **Assembly labour (bench)** |  |  | **5,000** | Fabrication & wiring |
 | **Grand Total** |  |  | **₹ 56,260** | ~£536 @ ₹105/£ (indicative) |
 
-> Keep this section concise in the README. The full, editable list sits in **`docs/bom_costs.csv`**.
-
+> Full, editable list lives in **`docs/bom_costs_2020_INR.csv`** (bench-scale, India 2020 prices).
 
 ---
 
