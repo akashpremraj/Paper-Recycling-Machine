@@ -168,27 +168,92 @@ flowchart TB
 
 ---
 
-### Drive & Speed Calculations
+## ⚙️ Drive & Speed Calculations
 
-- Motor: 1 HP, AC, 3-phase, **900 rpm**  
-- Gearbox: **42:1** → output ≈ 21.43 rpm  
-- Pulley ratio: **1:2** → roller ≈ 42.86 rpm  
-- Dryer circumference: **43.99 cm**
+- **Motor:** 1 HP, AC, 3-phase, **900 rpm**
+- **Gearbox:** **42:1** → output ≈ **21.43 rpm**
+- **Pulley step-up:** **1:2** on the gearbox output → roller ≈ **42.86 rpm**  
+  > (Driver pulley ≈ 2× the driven pulley to double speed.)
+- **Dryer circumference:** **C ≈ 2πr = 2π·0.07 m ≈ 0.4399 m**
 
-**Linear web speed**  
-v = rpm × C = 42.86 × 43.99 cm/min = **18.85 m/min**
+**Linear web speed**
+
+\[
+v \;=\; \text{rpm} \times C
+\;=\; 42.86 \times 0.4399\;\text{m·min}^{-1}
+\;\approx\; \mathbf{18.85\;m·min^{-1}} \;(\mathbf{0.314\;m·s^{-1}})
+\]
+
+> Keep the **drum surface speed** matched to the conveyor to avoid shear/slip.
 
 ---
 
-### Press Nip Pressure (Estimated)
+## 🔧 Press Nip Pressure (estimated)
 
-| Parameter                         | Symbol | Value        |
-|----------------------------------|:------:|:------------:|
-| Pneumatic line pressure          |   P    | 5 bar        |
-| Effective press width            |   w    | 0.33 m       |
-| Nip contact length (approx.)     |   a    | 5 mm         |
-| Line load (per unit width)       |   N/w  | ≈ 16,500 N/m |
-| Estimated nip pressure           |   p    | ≈ 9.9 MPa    |
+**Definitions**
+
+- **Line load (per unit width):** \(N'\) \([N·m^{-1}]\) — what paper engineers typically quote.
+- **Average nip pressure:** \(p\) \([Pa]\) — approx. average across the contact patch.  
+- **Geometry:** effective width \(w\), nip contact length \(a\) (in the machine direction).
+
+**From measured/assumed line load**
+
+\[
+p \;\approx\; \frac{N'}{a}
+\qquad\text{and}\qquad
+N \;=\; N' \cdot w,
+\]
+\[
+\text{with area of contact } A \approx w \cdot a \;\Rightarrow\; p \approx \frac{N}{A}.
+\]
+
+**Your stated example**  
+\(w = 0.33\,\text{m},\; a = 5\,\text{mm} = 0.005\,\text{m},\; N' \approx 16{,}500\,\text{N·m}^{-1}\)
+
+- Total line force: \(N = N' \cdot w \approx 16{,}500 \times 0.33 \approx 5{,}445\,\text{N}\)
+- Contact area: \(A = w \cdot a \approx 0.33 \times 0.005 = 0.00165\,\text{m}^2\)
+- **Estimated pressure:**  
+  \[
+  p \approx \frac{5{,}445}{0.00165} \approx \mathbf{3.3\;MPa}
+  \]
+> Your previous 9.9 MPa appears to be a 3× arithmetic slip. For the given \(N'\) and \(a\), the consistent estimate is **≈ 3.3 MPa**.
+
+---
+
+### Deriving line load from cylinders (handy for BOM/SOP)
+
+If the nip is applied by **two pneumatic cylinders**:
+
+\[
+F_{\text{total}} = n \cdot \frac{\pi d^2}{4} \cdot P, 
+\qquad
+N' = \frac{F_{\text{total}}}{w}
+\]
+
+- \(n\): number of cylinders (typically **2**)  
+- \(d\): bore diameter (m)  
+- \(P\): line pressure (Pa) — **5 bar = 5×10^5 Pa**  
+- \(w\): effective press width (m)
+
+**Examples at 5 bar, \(w=0.33\) m, \(n=2\):**
+
+| Bore \(d\) | \(F_{\text{total}}\) (N) | \(N'\) (N·m⁻¹) |
+|---:|---:|---:|
+| 32 mm | 804 | 2,437 |
+| 50 mm | 1,963 | 5,950 |
+| 63 mm | 3,117 | 9,446 |
+| 80 mm | 5,027 | 15,232 |
+| **83 mm** | **≈ 5,445** | **≈ 16,500** |
+
+> To reach your **\(N' \approx 16{,}500\;N·m^{-1}\)** at **5 bar**, you’d need roughly **two 83 mm** bore cylinders (or smaller bores at higher pressure).  
+> Once \(N'\) is set, use \(p \approx N'/a\) to tune the nip (reduce \(p\) by increasing the contact length \(a\) or lowering \(N'\)).
+
+**Safety notes (to echo in docs/safety-and-risks.md)**
+- Guard the nip; add interlocked covers if feasible.  
+- Fit a regulator + gauge and **lock-out/tag-out (LOTO)**.  
+- Vent air before maintenance; verify residual energy is zero.
+
+
 
 ---
 
