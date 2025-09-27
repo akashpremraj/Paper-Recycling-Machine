@@ -1,0 +1,4 @@
+Date (YYYY-MM-DD),Paper Mix,Line Speed v (m/s),Line Load N′ (N/m),Drum Temp Ts (°C),Inlet Moisture (kg/kg),Outlet Moisture (kg/kg),Samples (n),Std Dev Outlet Moisture,Breaks (#),Notes
+2020-06-26,Office mix,0.28,15200,90,,1.30,5,,0,First stable run; felt cleaned before test
+2020-06-27,Office + news,0.30,16500,95,,1.10,5,,0,Added simple hood over dryer
+2020-06-28,Office mix,0.32,16500,100,,1.00,5,,0,Squeegee reduced fibre carry-over
