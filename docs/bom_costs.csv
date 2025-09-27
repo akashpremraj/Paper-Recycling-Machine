@@ -1,0 +1,15 @@
+Subsystem,Item,Spec/Model,Qty,Unit Cost (£),Total (£),Notes
+Frame & Bearings,MS frame,Custom welded,1,80,80,Slotted holes for alignment
+Drive,AC motor,1 HP 3-phase 900 rpm,1,120,120,With starter/overload
+Drive,Gearbox,42:1 inline,1,140,140,Output ~21.4 rpm
+Drive,Pulleys & belts,1:2 ratio kit,1,35,35,Guarded
+Forming,Felt conveyor,330 mm × 4 m,1,55,55,Nylon/PVC porous
+Press,Press rollers,Paired steel with covers,1,60,60,Adjustable gap
+Pneumatics,Cylinders,Bore TBD (see calc),2,45,90,With mounts
+Pneumatics,Solenoid valve,5/2 way 24 V,1,22,22,Manual override
+Pneumatics,Compressor,Oil-less bench unit,1,110,110,With regulator
+Dryer,Heated drum,Ø 140 mm × 500 mm,1,95,95,Guard HOT zones
+Dryer,Heater & controls,SSR + thermostat,1,65,65,Thermal cut-out included
+Controls,Panel & wiring,IP-rated enclosure,1,75,75,E-stop + indicators
+Safety,Guards & signage,Mesh/plates + labels,1,40,40,Nip + hot labels
+TOTAL,,,,,887,Placeholder; update with actuals
