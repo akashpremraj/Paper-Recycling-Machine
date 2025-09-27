@@ -418,6 +418,18 @@ gantt
 
 ---
 
+### 📓 Mini Testing Log (extract)
+
+| Date | Paper mix | v (m·s⁻¹) | N′ (N·m⁻¹) | Ts (°C) | Outlet moisture (kg/kg) | Notes |
+|---|---|---:|---:|---:|---:|---|
+| 2020-06-26 | Office mix | 0.28 | 15,200 | 90 | 1.3 | First stable run; felt cleaned before test |
+| 2020-06-27 | Office + news | 0.30 | 16,500 | 95 | 1.1 | Better bonding; added simple hood |
+| 2020-06-28 | Office mix | 0.32 | 16,500 | 100 | 1.0 | Shorter warm-up; squeegee improved consistency |
+
+> Tip: Weigh 5 samples pre/post press for moisture; record mean and σ. Keep full detail in `docs/testing_log.csv`.
+
+---
+
 ## 🔭 Scope for Future Work
 
 ### 1) Automation & Controls
