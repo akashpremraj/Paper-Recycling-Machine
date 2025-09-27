@@ -249,42 +249,15 @@ Use these as **starting points** only; verify by weighing test strips before/aft
 - ✔️ **Thermal follow-on**: if dryer struggles, revisit press settings first.
 - ⚠️ **Safety**: guards in place, e-stop tested, LOTO before adjustments.
 
+
 ---
 
 
-### Deriving line load from cylinders (handy for BOM/SOP)
+### Press Line Load — quick reference
+At 5 bar with two cylinders across a 330 mm width, an ~**83 mm bore** pair gives
+**N′ ≈ 16,500 N·m⁻¹** and an average nip pressure **p ≈ N′/a** (e.g., ≈3.3 MPa for a = 5 mm).
 
-If the nip is applied by **two pneumatic cylinders**:
-
-\[
-F_{\text{total}} = n \cdot \frac{\pi d^2}{4} \cdot P, 
-\qquad
-N' = \frac{F_{\text{total}}}{w}
-\]
-
-- \(n\): number of cylinders (typically **2**)  
-- \(d\): bore diameter (m)  
-- \(P\): line pressure (Pa) — **5 bar = 5×10^5 Pa**  
-- \(w\): effective press width (m)
-
-**Examples at 5 bar, \(w=0.33\) m, \(n=2\):**
-
-| Bore \(d\) | \(F_{\text{total}}\) (N) | \(N'\) (N·m⁻¹) |
-|---:|---:|---:|
-| 32 mm | 804 | 2,437 |
-| 50 mm | 1,963 | 5,950 |
-| 63 mm | 3,117 | 9,446 |
-| 80 mm | 5,027 | 15,232 |
-| **83 mm** | **≈ 5,445** | **≈ 16,500** |
-
-> To reach your **\(N' \approx 16{,}500\;N·m^{-1}\)** at **5 bar**, you’d need roughly **two 83 mm** bore cylinders (or smaller bores at higher pressure).  
-> Once \(N'\) is set, use \(p \approx N'/a\) to tune the nip (reduce \(p\) by increasing the contact length \(a\) or lowering \(N'\)).
-
-**Safety notes (to echo in docs/safety-and-risks.md)**
-- Guard the nip; add interlocked covers if feasible.  
-- Fit a regulator + gauge and **lock-out/tag-out (LOTO)**.  
-- Vent air before maintenance; verify residual energy is zero.
-
+→ Full derivation, cylinder sizing table, and safety notes: see **docs/press-calcs.md**.
 
 
 ---
