@@ -70,29 +70,49 @@ flowchart TB
 
 ## 🔩 Major Components
 
-- Hopper  
-- Pulley & belt drive  
-- AC motor (1 HP, 3-phase) with gearbox (42:1 reduction)  
-- MS frame with bearings  
-- Pneumatic cylinder & compressor  
-- Felt conveyor with idler and press rollers  
-- Solenoid valve + basic control unit  
+| Subsystem | Key parts & specs | Purpose | Notes |
+|---|---|---|---|
+| **Feed & Pulping** | Hopper; **Hydropulper** vessel; Agitator/impeller | Convert shredded waste paper to slurry at ~2–3% consistency | Vessel & impeller sized for stable vortex without air entrainment |
+| **Prime mover & Drive** | **AC motor 1 HP, 3-phase**; **Gearbox 42:1**; Pulley–belt | Provide low-speed, high-torque drive for rollers/conveyor | Guarded belts; align for minimal run-out |
+| **Frame & Supports** | MS frame; housings; bearings | Structural support and alignment | Slotted holes for belt tensioning & roller nip adjustment |
+| **Forming** | Felt conveyor; mesh support; feed tray | Form initial wet sheet by drainage on moving felt | Felt tension & cleaning SOP in docs |
+| **Pressing** | **Press rollers** (paired) with bearings | Remove free water; improve bonding | Nip guard; drip tray; adjustable gap |
+| **Drying** | **Heated cylinder** + assisted airflow | Reduce residual moisture to handleable level | Mark hot zones; thermostat & thermal cut-out |
+| **Pneumatics** | **Pneumatic cylinder**; **compressor**; **solenoid valve** | Apply repeatable nip/pressure and small actuations | Pressure regulator with gauge; LOTO instructions |
+| **Controls & Safety** | Basic control panel; motor starter; emergency stop; guards | Safe operation and quick isolation | E-stop reachable; IP-rated enclosures |
+
+> Detailed parts and costs live in **`docs/bom_costs.csv`**. Procedures in **`docs/sop_operations.md`**; hazards & mitigations in **`docs/safety-and-risks.md`**.
 
 ---
 
 ## 📐 Design Data & Calculations
 
-### Hydropulper
+### Hydropulper (cylindrical vessel)
 
-| Parameter            | Symbol | Value   | Notes                     |
-|---------------------|:------:|:-------:|---------------------------|
-| Wall thickness      |  t     | 0.022 cm | As per vessel spec        |
-| Radius              |  r     | 0.95 cm  | From report data          |
-| Total height        |  h     | 50 cm    | Cylindrical vessel height |
-| Impeller/agitator   |  —     | Yes      | Circulates slurry         |
+**Given (from report draft):** wall thickness `t = 0.022 cm`, radius `r = 0.95 cm`, height `h = 50 cm`, volume `V = 62,930 cm³ (≈ 62.9 L)`.
 
-**Volume calculation:**  
-Total Volume, Vr = 62,930 cm³ (≈ 62.9 L)
+**Sanity-check:** For a right cylinder, \( V = \pi r^2 h \).
+
+- If `h = 50 cm` and `V = 62,930 cm³`, then  
+  \( r = \sqrt{V / (\pi h)} ≈ \sqrt{62,930 / (3.1416 × 50)} ≈ 20.0 cm \).
+
+> ⚠️ This shows the stated **`r = 0.95 cm`** is a unit/typo error.  
+> To match your volume and height, use **`r ≈ 20.0 cm` (diameter ≈ 40 cm)**.
+
+#### Finalised hydropulper parameters (used for calcs)
+
+| Parameter | Symbol | Value | Notes |
+|---|:---:|:---:|---|
+| Wall thickness | `t` | 0.022 cm (0.22 mm) | From vessel spec |
+| **Radius (corrected)** | `r` | **20.0 cm** | Matches `V` and `h` |
+| Height | `h` | 50 cm | Cylindrical shell height |
+| **Volume** | `V` | **62,930 cm³ (≈ 62.9 L)** | \( \pi r^2 h \) |
+
+**Batch sizing & consistency (rule-of-thumb):**
+- At **2.5% consistency**, paper solids per batch ≈ `0.025 × 62.9 L ≈ 1.57 kg` wet-basis equivalent.
+- Useful for planning **press load** and **dryer time** targets downstream.
+
+> If you prefer to keep the originally printed radius, adjust the height to keep the same volume, or update the volume to match the printed dimensions. Keeping **volume** fixed is most practical because downstream timings were likely derived from it.
 
 ---
 
