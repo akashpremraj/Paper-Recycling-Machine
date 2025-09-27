@@ -501,6 +501,13 @@ project teammates for their support and encouragement.
 [3] C. Jiang and J. Ma, “Deinking of waste paper: Flotation methods,” Enzymatic Deinking Technologies, vol. 1, no. 2, 2000.  
 [4] A. P. Raj, *Design and Fabrication of Paper Recycling Machine*. Srinivas Institute of Technology, 2020. (Final report)
 
+---
+
+## 📄 License
+
+This project is released under the **MIT License** — see `LICENSE` for details.
+
+© 2020–2025 Akash P Raj. You’re free to use, modify, and distribute with attribution and license notice.
 
 
 
