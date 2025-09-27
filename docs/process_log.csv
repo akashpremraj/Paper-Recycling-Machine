@@ -1,7 +1,8 @@
 Date (YYYY-MM-DD),Workstream (Docs/Mechanical/Controls/Repo),Task,Files/Paths,Tickets (Issue/PR),Duration (h),Status (Planned/In Progress/Done),Evidence (links/paths),Outcome / Notes,Next Step,Owner
-2020-06-12,Mechanical,Finalize frame dims and roller/bearing selection,Frame CAD; notes,,,Done,images/photos/frame_sketch.jpg,Frame dims locked for 330 mm web,Order bearings,Akash
-2020-06-26,Mechanical,First wet run and press tuning,Press rollers; felt; dryer,,,Done,docs/testing_log.csv#L2,"Stable sheet; outlet moisture ~1.3 kg/kg",Add hood over dryer,Akash
-2020-06-28,Mechanical,Add squeegee & re-test felt cleanliness,Felt cleaning bar,,,Done,docs/testing_log.csv#L4,"Outlet moisture ~1.0 kg/kg; reduced carry-over",Standardise cleaning step,Akash
-2025-09-28,Docs,Overhaul README (overview, flow, calcs, safety, results),README.md,#1 PR-README,3.0,Done,commit/<sha>,"Portfolio-ready README complete",Add NHS impact bullet,Akash
-2025-09-28,Docs,Safety docs (hazards, checklist, emergency, maintenance),docs/safety-and-risks.md,#2 ISSUE-SAFETY,1.5,Done,commit/<sha>,Safety section linked from README,Add daily log template,Akash
-2025-09-28,Repo,Add changelog and process log files,CHANGELOG.md; docs/process_log.csv,#3 PR-LOGS,0.5,Done,commit/<sha>,Changelog + CSV log added,Start weekly roll-up,Akash
+2020-06-12,Mechanical,"Finalize frame dims and roller/bearing selection","Frame CAD; notes",,,Done,images/photos/frame_sketch.jpg,"Frame dims locked for 330 mm web","Order bearings",Akash
+2020-06-26,Mechanical,"First wet run and press tuning","Press rollers; felt; dryer",,,Done,docs/testing_log.csv#L2,"Stable sheet; outlet moisture ~1.3 kg/kg","Add hood over dryer",Akash
+2020-06-28,Mechanical,"Add squeegee & re-test felt cleanliness","Felt cleaning bar",,,Done,docs/testing_log.csv#L4,"Outlet moisture ~1.0 kg/kg; reduced carry-over","Standardise cleaning step",Akash
+2025-09-28,Docs,"Overhaul README (overview, flow, calcs, safety, results)",README.md,"#1 PR-README",3.0,Done,commit/<sha>,"Portfolio-ready README complete","Add NHS impact bullet",Akash
+2025-09-28,Docs,"Safety docs (hazards, checklist, emergency, maintenance)",docs/safety-and-risks.md,"#2 ISSUE-SAFETY",1.5,Done,commit/<sha>,"Safety section linked from README","Add daily log template",Akash
+2025-09-28,Repo,"Add changelog and process log files","CHANGELOG.md; docs/process_log.csv","#3 PR-LOGS",0.5,Done,commit/<sha>,"Changelog + CSV log added","Start weekly roll-up",Akash
+
