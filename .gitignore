@@ -1,0 +1,19 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data & artefacts (keep samples in docs or data-samples)
+data/
+*.tmp
+*.log
+
+# Build / exports
+dist/
+build/
