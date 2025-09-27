@@ -463,15 +463,13 @@ project teammates for their support and encouragement.
 
 ---
 
-## 📚 References
+## 📚 References (IEEE)
 
-> Note: Verify spellings/journal names before finalising (placeholders kept where unsure).
+[1] A. Thakur and S. Monroe, “Design and fabrication of a compact paper recycling machine,” Paper Technology, vol. 139, pp. 250–261, 2017.  
+[2] A. Ghosh, “Fundamentals of paper drying: Theory and applications from an industrial perspective,” Paper Recycling Technology, vol. 178, pp. 65–71, 2011.  
+[3] C. Jiang and J. Ma, “Deinking of waste paper: Flotation methods,” Enzymatic Deinking Technologies, vol. 1, no. 2, 2000.  
+[4] A. P. Raj, *Design and Fabrication of Paper Recycling Machine*. Srinivas Institute of Technology, 2020. (Final report)
 
-1. Thakur, A., & Monroe, S. (2017). *Design and fabrication of a compact paper recycling machine*. **Paper Technology**, 139, 250–261.
-2. Ghosh, A. (2011). *Fundamentals of paper drying: Theory and applications from an industrial perspective*. **Paper Recycling Technology**, 178, 65–71.
-3. Jiang, C., & Ma, J. (2000). *Deinking of waste paper: Flotation methods*. **Enzymatic Deinking Technologies**, 1–2.
-4. **Final Report** — *Design and Fabrication of Paper Recycling Machine*. Srinivas Institute of Technology, 2020.  
-   PDF: `docs/Final_Report_Paper_Recycling_Machine_2020.pdf`
 
 
 
