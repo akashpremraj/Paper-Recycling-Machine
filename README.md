@@ -401,13 +401,52 @@ gantt
 
 ## 🔭 Scope for Future Work
 
-- Automating slurry feeding and sheet cutting  
-- Increasing production capacity with wider conveyor and larger rollers  
-- Integration of temperature-controlled dryer for consistent sheet quality  
-- Addition of sensors and PLC for semi-automatic operation  
-- Developing portable/mobile versions for schools and community centers  
-- Using renewable energy (solar power) to improve sustainability  
+### 1) Automation & Controls
+- **Auto feed & sheet cut** — add level sensor + peristaltic/gear pump for slurry dosing; rotary cutter for sheet length.  
+- **Basic PLC or microcontroller** — interlock drives, heater, and pneumatics; log v, N′/P, Ts.  
+- **Sensors** — drum thermocouple, felt speed encoder, press pressure transducer, moisture-by-weight workstation.
 
+### 2) Throughput & Quality
+- **Wider web** — increase effective width from ~330 mm → **450–600 mm** with frame/roller redesign.  
+- **Improved forming** — deckle and vacuum slot for better drainage and edge definition.  
+- **Calendaring (optional)** — add a light post-press to improve smoothness and thickness uniformity.  
+- **Target metrics** — sustained **2–4 sheets/min** (A5 equiv.), outlet moisture **< 0.7 kg/kg**, break rate **< 3%**.
+
+### 3) Drying & Energy
+- **Temperature-controlled dryer** — closed-loop PID at 90–110 °C; add simple hood/duct for heat retention.  
+- **Energy metering** — in-line kWh meter; report **kWh/kg dry fibre** as a dashboard metric.  
+- **Heat recovery** — use exhaust air to pre-warm incoming sheet/felt path.
+
+### 4) Safety & Maintainability
+- **Interlocked guards** — switch-monitored belt and nip covers.  
+- **LOTO hardware kit** — tagged isolators for electrical and pneumatic circuits.  
+- **Maintenance points** — grease ports, belt quick-release, tool-free felt cleaning bar.
+
+### 5) Portability & Outreach
+- **Modular frame** — split into two liftable sections; quick couplers for air/electrics.  
+- **Caster base & drip management** — mobile demo unit for schools/community centres.  
+- **Instructor pack** — laminated SOP, safety brief, lesson plans, and test strips kit.
+
+### 6) Sustainability
+- **Solar-assist** — panel + MPPT + battery to offset drive/heater loads (demo mode).  
+- **Water reuse loop** — coarse filter + clarifier to recirculate process water; track **L/kg** consumption.
+
+---
+
+### 📈 Suggested roadmap (impact vs effort)
+
+| Work item | Impact | Effort | Notes |
+|---|:--:|:--:|---|
+| Closed-loop dryer control (PID) | 🔼🔼🔼 | 🔼 | Immediate quality/throughput gain |
+| Auto slurry feed + level sensor | 🔼🔼 | 🔼 | Stabilises forming consistency |
+| Wider web (450–600 mm) | 🔼🔼🔼 | 🔼🔼 | Requires roller/frame changes |
+| Basic PLC + data logging | 🔼🔼 | 🔼🔼 | Enables interlocks & dashboards |
+| Interlocked guards + LOTO kit | 🔼🔼 | 🔼 | Safety uplift; audit friendly |
+| Modular frame + casters | 🔼 | 🔼 | Improves portability for demos |
+| Solar-assist + energy meter | 🔼 | 🔼🔼 | Sustainability showcase |
+ 
+
+---
 
 ## ✍️ Author’s Note
 
