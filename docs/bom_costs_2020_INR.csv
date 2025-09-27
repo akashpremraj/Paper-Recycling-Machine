@@ -9,15 +9,16 @@ Press,Press rollers,Pair (machined MS),1,1200,1200,Adjustable gap
 Bearings,Bearing units,UCFL (4x),1,1000,1000,Self-aligning
 Pneumatics,Cylinders,63–80 mm bore (pair),1,4400,4400,See press-calcs
 Pneumatics,Solenoid valve,5/2 way 24 V,1,1200,1200,With fittings
-Pneumatics,Compressor,Bench, oil-less,1,7000,7000,Regulator + gauge
+Pneumatics,Compressor,"Bench, oil-less",1,7000,7000,"Regulator + gauge"
 Dryer,Heated drum,Ø140 × 500 mm,1,2500,2500,Fabricated
-Dryer,Heater & controls,SSR + thermostat + cut-out,1,3000,3000,—
-Electrical,Panel & wiring,IP enclosure + MCBs + E-stop,1,4000,4000,Indicators included
-Structure,MS frame,Fabrication (cut/weld/drill),1,3500,3500,—
-Safety,Guards & signage,Mesh/plates + labels,1,1200,1200,Nip + HOT labels
+Dryer,Heater & controls,"SSR + thermostat + cut-out",1,3000,3000,—
+Electrical,Panel & wiring,"IP enclosure + MCBs + E-stop",1,4000,4000,Indicators included
+Structure,MS frame,"Fabrication (cut/weld/drill)",1,3500,3500,—
+Safety,Guards & signage,Mesh plates + labels,1,1200,1200,"Nip + HOT labels"
 Misc,Fasteners/hoses/fittings,Assorted,1,1000,1000,—
 Misc,Paint & consumables,Primer + enamel,1,600,600,—
-,,Materials Subtotal,, ,46600,
-,,Contingency (10%),, ,4660,Prototype allowance
-,,Assembly labour (bench),, ,5000,Fab + wiring
-,,Grand Total,, ,56260,"≈ £536 at ₹105/£ (indicative)"
+Totals,Materials Subtotal,,,,,,
+Totals,Contingency (10%),,,,4660,Prototype allowance
+Totals,Assembly labour (bench),,,,5000,Fab + wiring
+Totals,Grand Total,,,,56260,"≈ £536 at ₹105/£ (indicative)"
+
