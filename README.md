@@ -365,12 +365,15 @@ gantt
 
 ## ✅ Advantages
 
-- Compact design suitable for small-scale use  
-- Low-cost construction with readily available materials  
-- Energy-efficient operation (1 HP motor with gearbox)  
-- Easy to maintain and operate  
-- Reduces environmental waste by recycling used paper  
-- Quick turnaround — sheets produced in minutes  
+- **Compact footprint** — bench-scale layout fits labs, classrooms, or small workshops.
+- **Low build cost** — off-the-shelf components and simple fabrication keep costs down (see `docs/bom_costs_2020_INR.csv`).
+- **Energy-efficient drive** — 1 HP motor with 42:1 gearbox and pulley step-up delivers the required torque at low power.
+- **Fast demonstration cycles** — produces handleable sheets within minutes (bench line speed ≈ 0.3 m·s⁻¹).
+- **Simple operation & upkeep** — basic controls, easy belt tracking, and straightforward cleaning SOP.
+- **Safety-first design** — guarded nip points, marked HOT zones, and a single accessible e-stop.
+- **Waste reduction & teaching value** — turns office waste into usable sheets, illustrating closed-loop recycling.
+
+> For constraints and what’s deliberately out of scope (e.g., industrial sizing/calendaring), see **Limitations** below.
 
 ---
 
