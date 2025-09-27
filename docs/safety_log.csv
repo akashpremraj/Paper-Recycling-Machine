@@ -1,0 +1,3 @@
+Date (YYYY-MM-DD),Shift (AM/PM),Operator,Supervisor (Initials),E-Stop Test (Pass/Fail),Guards Fitted (Y/N),Regulator Set (bar),Air Leaks (Y/N),Felt Tracking (OK/Adjust),Felt Tension (OK/Adjust),Cleaning Spray (OK/Blocked),Drum/Felt Speeds Matched (Y/N),Thermostat (°C),Thermal Cut-out Test (Due/Done/NA),Floor Dry (Y/N),Drip Trays Empty (Y/N),Panel Closed (Y/N),Housekeeping OK (Y/N),PPE Worn (Y/N),Incidents/Near-misses (brief),Corrective Actions Taken,Operator Signature,Supervisor Review
+2020-06-26,AM, , ,Pass,Y, ,N,OK,OK,OK,Y, ,Due,Y,Y,Y,Y,Y, , , , 
+2020-06-26,PM, , ,Pass,Y, ,N,OK,OK,OK,Y, ,NA,Y,Y,Y,Y,Y, , , , 
