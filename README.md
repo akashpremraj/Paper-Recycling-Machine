@@ -118,21 +118,53 @@ flowchart TB
 
 ### Conveyor Felt
 
-| Attribute | Value          | Notes                                                                 |
-|----------:|----------------|-----------------------------------------------------------------------|
-| Length    | 3.9–4.0 m      | Provides travel/dwell for drainage                                   |
-| Width     | 13 in (~330 mm)| Matches sheet width and roller span                                  |
-| Material  | Nylon/PVC      | Porous medium for effective water removal                           |
+| Attribute | Value | Notes |
+|---:|---|---|
+| **Length** | 3.9–4.0 m | Provides drainage **dwell length** before the press nip. |
+| **Width** | 13 in (≈ **330 mm**) | Matches target sheet width and roller span. |
+| **Material** | Nylon / PVC felt (porous) | Promotes drainage; compatible with wet end chemistry. |
+| **Thickness** | 2–4 mm (typ.) | Stiff enough to track; compliant enough for nip. |
+| **Speed (line)** | **v** = 0.2–0.5 m/s (demo mode) | Tune to balance drainage vs throughput. |
+| **Tension** | 150–300 N total (bench) | Set to avoid slip; check bearing load. |
+| **Tracking** | Crowned roller or edge guides | Prevents walk-off; add alignment marks. |
+| **Cleaning** | Squeegee + low-pressure spray | Reduces fibre carry-over and blinding. |
+
+**Useful relations**
+- **Drainage dwell time:** \( t_{\text{dwell}} = \dfrac{L_{\text{felt}}}{v} \).  
+  *Example:* \( L=4.0\,\text{m},\ v=0.3\,\text{m·s}^{-1} \Rightarrow t \approx 13.3\,\text{s} \).
+- **Felt speed = line speed:** keep drive ratios 1:1 (no shear).
+
+> See **docs/sop_operations.md** for belt tensioning and tracking, and **docs/safety-and-risks.md** for wet-floor and rotating-machinery hazards.
 
 ---
 
 ### Dryer Cylinder
 
-| Parameter          | Symbol | Value   |
-|-------------------|:------:|:-------:|
-| Radius            |  r     | 7 cm    |
-| Circumference     |  C     | 43.99 cm |
-| Length (heated)   |   L    | 50 cm   |
+| Parameter | Symbol | Value | Notes |
+|---|:---:|:---:|---|
+| **Radius** | \( r \) | **7 cm** | Bench-scale heated drum. |
+| **Circumference** | \( C = 2\pi r \) | **≈ 43.98 cm** | Using \( \pi \approx 3.1416 \). |
+| **Heated length** | \( L \) | **50 cm** | Effective contact width. |
+| **Wrap angle** | \( \theta \) | 120–180° (typ.) | With idler to increase dwell. |
+| **Surface temperature** | \( T_s \) | 80–110 °C (demo) | Adjust for paper grammage & safety. |
+
+**Kinematics**
+- **Surface speed:** \( v_s = \omega r \) → **match** to conveyor line speed \( v \) (no slip).
+- **Thermal dwell (on drum):** \( t_{\text{drum}} \approx \dfrac{\theta\,r}{v} \) (θ in radians).  
+  *Example:* \( \theta = \pi \), \( r=0.07\,\text{m} \), \( v=0.3\,\text{m·s}^{-1} \Rightarrow t \approx 0.73\,\text{s} \).
+
+**Heat-of-drying (rule-of-thumb placeholders)**
+- **Load to heat web:** \( \dot Q_{\text{sens}} \approx \dot m_{\text{web}} c_p \Delta T \).  
+- **Load to evaporate water:** \( \dot Q_{\text{lat}} \approx \dot m_{\text{water}} h_{fg} \).  
+  Use these to choose heater rating; start low and step up under guarded conditions.
+
+**Safety & controls**
+- Guard hot surfaces; mark **HOT** zones.  
+- Fit thermostat + thermal cut-out; verify earth/insulation.  
+- Use a **nip guard** at the drum/idler contact.
+
+> Add a photo or sketch of the **wrap/idler arrangement** to `images/` and reference it here for clarity.
+
 
 ---
 
