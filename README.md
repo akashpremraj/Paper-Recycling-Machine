@@ -218,7 +218,39 @@ N \;=\; N' \cdot w,
   \]
 > Your previous 9.9 MPa appears to be a 3× arithmetic slip. For the given \(N'\) and \(a\), the consistent estimate is **≈ 3.3 MPa**.
 
+#### Moisture after Press (bench-scale heuristics)
+
+Let:
+- N′ = line load (N·m⁻¹)
+- a  = nip contact length (m)
+- v  = line speed (m·s⁻¹)
+- M_in = inlet moisture (kg water / kg dry fibre)
+- M_out ≈ moisture after press
+
+1) Dwell index (dimensionless):  DI = a / v
+2) Pressure index (kPa):         PI ≈ (N′ / a) / 1000     (since p ≈ N′/a)
+
+Rule-of-thumb bands (felt in good condition, thin web):
+- Light press:    PI 1–2 MPa,  DI ~0.01–0.02 s → M_out ≈ 1.6–2.0
+- Medium press:   PI 2–3 MPa,  DI ~0.02–0.04 s → M_out ≈ 1.2–1.6
+- Firm press:     PI 3–4 MPa,  DI ~0.04–0.07 s → M_out ≈ 0.9–1.2
+
+Use these as **starting points** only; verify by weighing test strips before/after the press.
+
+
+#### Press Tuning Checklist
+
+- ✔️ **Match speeds**: drum and felt surface speeds equal (no visible shear).
+- ✔️ **Set N′**: start with target line load; verify regulator pressure and gauge.
+- ✔️ **Check nip contact**: uniform stripe across 330 mm width (carbon paper test).
+- ✔️ **Adjust DI**: increase contact length a (softer covers) or reduce v for more dewatering.
+- ✔️ **Felt condition**: clean, unworn; squeegee and low-pressure spray enabled.
+- ✔️ **Measure moisture**: weigh 5 samples pre/post press (grams), track mean & σ.
+- ✔️ **Thermal follow-on**: if dryer struggles, revisit press settings first.
+- ⚠️ **Safety**: guards in place, e-stop tested, LOTO before adjustments.
+
 ---
+
 
 ### Deriving line load from cylinders (handy for BOM/SOP)
 
