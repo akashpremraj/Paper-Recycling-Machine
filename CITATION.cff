@@ -1,10 +1,11 @@
-# CITATION.cff
+# CITATION.cff (root of repo)
 cff-version: 1.2.0
 message: "If you use this project, please cite it as below."
 title: "Paper Recycling Machine — Bench-Scale Demonstrator"
 authors:
-  - family-names: "Raj"
-    given-names: "Akash P"
+  - family-names: Raj
+    given-names: Akash P
+    orcid: "https://orcid.org/0000-0000-0000-0000"
 date-released: 2020-07-08
 version: "1.0"
 repository-code: "https://github.com/akashpremraj/Paper-Recycling-Machine"
@@ -12,7 +13,9 @@ preferred-citation:
   type: report
   title: "Design and Fabrication of Paper Recycling Machine"
   authors:
-    - family-names: "Raj"
-      given-names: "Akash P"
+    - family-names: Raj
+      given-names: Akash P
+      orcid: "https://orcid.org/0000-0000-0000-0000"
   institution: "Srinivas Institute of Technology"
   year: 2020
+
