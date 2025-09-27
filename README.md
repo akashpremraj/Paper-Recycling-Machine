@@ -377,13 +377,25 @@ gantt
 
 ---
 
-## ⚠️ Disadvantages
+## ⚠️ Limitations (Disadvantages)
 
-- Limited production capacity (small batch size only)  
-- Not suitable for industrial-scale recycling  
-- Requires manual feeding and supervision  
-- Drying section efficiency depends on local conditions (temperature, humidity)  
-- Paper quality may not match commercial-grade standards  
+- **Low throughput** — bench-scale line; intended for demos/training rather than production.  
+  *Mitigation:* document realistic sheets/hour and use queued batches.
+
+- **Manual handling** — feed, threading, and some cleaning steps require an operator.  
+  *Mitigation:* add simple guides/jigs; consider a small feed hopper upgrade.
+
+- **Drying variability** — performance depends on ambient temperature/humidity and felt condition.  
+  *Mitigation:* warm-up routine; basic hood/ducting; periodic felt cleaning.
+
+- **Quality vs. commercial mills** — sheet formation, smoothness, and grammage control are basic.  
+  *Mitigation:* slower line speed for forming, better felt, optional post-press calendaring.
+
+- **Limited web width** — ~330 mm effective width caps sheet size.  
+  *Mitigation:* stitch narrower sheets or redesign roller span for wider formats.
+
+- **Safety constraints of small rigs** — close clearances, hot surfaces, and nips demand supervision.  
+  *Mitigation:* enforced guards, e-stop checks, SOP adherence (see `docs/safety-and-risks.md`).
 
 ---
 
