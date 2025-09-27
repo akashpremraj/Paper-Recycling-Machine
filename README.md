@@ -297,23 +297,72 @@ At 5 bar with two cylinders across a 330 mm width, an ~**83 mm bore** pair gives
 
 ---
 
-## 📅 Timeline (One Month)
+## 📅 Timeline (1-month plan with deliverables)
 
-- **Week 1 (June 5–11):** Problem definition, requirements, initial CAD sketches  
-- **Week 2 (June 12–18):** Frame design, roller/bearing selection, conveyor research  
-- **Week 3 (June 19–25):** Fabrication (frame welding, roller alignment), dry-run test  
-- **Week 4 (June 26–July 2):** Process tuning, test sheets, draft report  
-- **Week 5 (July 3–8):** Final report writing, images/diagrams, polished README  
+**Duration:** 5 June – 8 July (≈ 5 calendar weeks, includes a buffer in Week 5)
+
+| Week | Focus | Key deliverables (exit criteria) |
+|---|---|---|
+| **W1 (5–11 Jun)** | Problem & requirements | Problem statement, stakeholder needs, risk register v1, initial CAD/assembly sketch, parts shortlist |
+| **W2 (12–18 Jun)** | Design decisions | Final frame dims, roller/bearing picks, conveyor spec, dryer concept, press calc sheet, BOM v1 |
+| **W3 (19–25 Jun)** | Fabrication & dry runs | Frame welded and squared, rollers aligned, belt tracked, electrical panel mounted, dry-run (no pulp) log |
+| **W4 (26 Jun–2 Jul)** | Wet tests & tuning | First sheets produced, press/dryer tuning table, moisture & speed data, photos/short clips |
+| **W5 (3–8 Jul)** | Documentation polish | Final README, diagrams, SOP, Safety notes, BOM, results & reflection (200–250 words) |
+
+### Visual (Mermaid Gantt)
+```mermaid
+gantt
+  title Paper Recycling Machine — 1-Month Plan
+  dateFormat  YYYY-MM-DD
+  section Define
+  Requirements & CAD       :done,   req, 2020-06-05, 7d
+  section Design
+  Select components/design :active, des, 2020-06-12, 7d
+  section Build & Dry-run
+  Fabrication & alignment  :        fab, 2020-06-19, 7d
+  section Wet tests & Tuning
+  Produce sheets & tune    :        tst, 2020-06-26, 7d
+  section Wrap-up
+  Docs & polish            :        doc, 2020-07-03, 6d
+```
 
 ---
 
-## ⚠️ Safety Notes
+## ⚠️ Safety Notes (operator essentials)
 
-- Guard all rotating parts (rollers, belts, pulleys)  
-- Use PPE around hot surfaces and chemicals  
-- Depressurize pneumatic systems before maintenance  
+> Only trained users may operate this machine. Follow local H&S policy and the SOP.
+
+### Pre-start (2–3 min)
+- E-stop test (press → machine stops → reset).
+- Guards in place (belts, pulleys, press nip, drum wrap).
+- Floor dry; drip trays empty; anti-slip footwear.
+- Pneumatics: regulator set, hoses sound, no leaks.
+- Electrical panel closed; earth/insulation intact.
+- Dryer thermostat at LOW for start-up.
+
+### While running
+- Keep hands/tools clear of moving parts and HOT areas.
+- Match drum and felt speeds (no visible shear).
+- Keep felt clean (squeegee / low-pressure spray).
+- Watch tracking marks; stop if felt walks/frays.
+
+### Shutdown / maintenance
+- Stop feed → clear sheet → **Heater OFF** (fan purge 2–3 min).
+- Vent pneumatics to zero; confirm gauges at 0 bar.
+- **LOTO** before any adjustment/maintenance.
+- Allow hot surfaces to cool before cleaning.
+
+### Hazards → controls (summary)
+- Rotating parts → fixed guards, nip guard, training.
+- Hot drum/duct → HOT labels, gloves, thermostat + thermal cut-out.
+- Wet floor → drip trays, housekeeping, signage.
+- Pneumatics → regulator + gauge, LOTO, controlled venting.
+- Electrical → IP-rated enclosure, MCB/overload, earth check.
+
+> Details in **docs/safety-and-risks.md** and **docs/sop_operations.md**.
 
 ---
+
 ## ✅ Advantages
 
 - Compact design suitable for small-scale use  
