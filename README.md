@@ -494,6 +494,19 @@ project teammates for their support and encouragement.
 
 ---
 
+## 🖼️ Figures (from report)
+
+*Figure 15 — Working principle*  
+![Figure 15: Working principle](images/report-figures/fig-15-working-principle.png)
+
+*Figure 16 — Front view*  
+![Figure 16: Front view](images/report-figures/fig-16-front-view.png)
+
+*Figure 17 — Top view*  
+![Figure 17: Top view](images/report-figures/fig-17-top-view.png)
+
+---
+
 ## 📚 References (IEEE)
 
 [1] A. Thakur and S. Monroe, “Design and fabrication of a compact paper recycling machine,” Paper Technology, vol. 139, pp. 250–261, 2017.  
