@@ -17,7 +17,7 @@ Structure,MS frame,"Fabrication (cut/weld/drill)",1,3500,3500,—
 Safety,Guards & signage,Mesh plates + labels,1,1200,1200,"Nip + HOT labels"
 Misc,Fasteners/hoses/fittings,Assorted,1,1000,1000,—
 Misc,Paint & consumables,Primer + enamel,1,600,600,—
-Totals,Materials Subtotal,,,,,,
+Totals,Materials Subtotal,,,,46600,
 Totals,Contingency (10%),,,,4660,Prototype allowance
 Totals,Assembly labour (bench),,,,5000,Fab + wiring
 Totals,Grand Total,,,,56260,"≈ £536 at ₹105/£ (indicative)"
