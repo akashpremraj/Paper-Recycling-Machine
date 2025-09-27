@@ -61,6 +61,11 @@ flowchart TB
   I -. regulates .- F
 ```
 
+<details>
+  <summary>PNG fallback for printing / mobile</summary>
+
+  ![Process Flow — Paper Recycling Machine](images/process-flow.png)
+</details>
 ---
 
 ## 🔩 Major Components
