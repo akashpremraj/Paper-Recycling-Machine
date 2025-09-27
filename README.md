@@ -10,18 +10,56 @@ Commit message:
 ---
 
 ## 📖 Project Overview
-This is my **final year project**: the design and fabrication of a **compact paper recycling machine**.  
-The machine integrates **pulping, forming, press rolling, and drying** into one unit.  
-It is aimed at schools, colleges, offices, and small industries where a large-scale plant is not feasible.
+
+A compact, low-cost **paper recycling machine** that integrates **pulping → forming → press rolling → drying** into a single bench-scale line. It’s designed for **schools, colleges, offices, and small units** where a full-scale mill isn’t viable, prioritising **safety, footprint, and ease of operation**.
+
+**Why this matters**
+- Diverts paper waste from bins; demonstrates **closed-loop recycling** on-site.
+- Converts mixed office waste into **usable A5/A4 craft sheets** for teaching or prototyping.
+- Shows practical integration of **mechanical design, fluid handling, heat transfer, and controls**.
+
+**Scope & objectives**
+- Build an integrated prototype with **continuous conveyor forming** and **heated drying**.
+- Achieve **stable sheet formation**, reduce moisture via **press rolling**, and **dry to handle** state.
+- Emphasise **operator safety** (guards, e-stop, thermal caution) and **simple maintenance** (belt tensioning, cleaning SOP).
+
+**Out of scope**
+- Industrial-grade calendaring/sizing, high-speed web control, or commercial grammage certification (the unit is for **demonstration and training**).
 
 ---
 
 ## ⚙️ Process Flow
 
-1. **Pulping** — Shredded waste paper is mixed with water in the hydropulper.  
-2. **Forming** — Slurry drains on a felt conveyor to form a wet sheet.  
-3. **Press Rolling** — Rollers squeeze out water and compact the sheet.  
-4. **Drying** — Heated cylinder and airflow dry the paper.
+1. **Pulping** → Shredded waste paper + water in a **hydropulper** to create slurry (target consistency ~2–3%).  
+2. **Forming** → Slurry is deposited onto a **moving felt conveyor**; water drains by gravity/mesh to form a wet mat.  
+3. **Press Rolling** → **Paired rollers** squeeze the web to expel free water and improve fibre bonding.  
+4. **Drying** → **Heated cylinder** with assisted airflow dries the sheet to a handleable moisture level.
+
+```mermaid
+%%{init: {
+  "theme":"base",
+  "themeVariables": { "fontSize":"18px", "fontFamily":"Inter, Arial, sans-serif" },
+  "flowchart": { "useMaxWidth": true, "nodeSpacing": 70, "rankSpacing": 80, "padding": 16 }
+}}%%
+flowchart TB
+  A["Waste Paper\nShredder Bin"] --> B["Hydropulper\n(Water + Agitation)"]
+  B --> C["Slurry Tank\nFlow Control"]
+  C --> D["Forming Section\nFelt Conveyor + Mesh"]
+  D --> E["Press Rolling\nPaired Rollers"]
+  E --> F["Drying Section\nHeated Cylinder + Airflow"]
+  F --> G["Take-up\nSheet Cutter"]
+
+  subgraph Safety_and_Control ["Safety and Control"]
+    H["E-Stop and Guards"]
+    I["Motor / Heater Controls"]
+  end
+
+  H -. monitors .- D
+  H -. monitors .- E
+  H -. monitors .- F
+  I -. regulates .- B
+  I -. regulates .- F
+```
 
 ---
 
