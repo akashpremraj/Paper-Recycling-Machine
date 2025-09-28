@@ -28,6 +28,10 @@ A compact, low-cost **paper recycling machine** that integrates **pulping → fo
 
 ---
 
+**Contents:** [Process Flow](#-process-flow) · [Major Components](#-major-components) · [Calculations](#-design-data--calculations) · [Drive & Press](#-drive--speed-calculations) · [Safety](#-safety-notes-operator-essentials) · [Results](#-results--reflection) · [Testing Log](#-mini-testing-log-extract) · [Scope](#-scope-for-future-work) · [Figures](#️-figures-from-report) · [References](#-references-ieee)
+
+---
+
 ## ⚙️ Process Flow
 
 1. **Pulping** → Shredded waste paper + water in a **hydropulper** to create slurry (target consistency ~2–3%).  
