@@ -4,9 +4,7 @@
 **Guide:** Prof. Gangadhara Rao, Associate Professor, SIT Mangaluru  
 **Duration:** 5 June – 8 July 2020 (≈ 1 month)
 
-> **Provenance & Ethics:** This repository transparently reconstructs my BE final-year project. Content, steps and figures are derived from my original VTU/SIT report; some artefacts are recreated for portfolio clarity. No confidential data is included. :contentReference[oaicite:0]{index=0}
-Commit message:
-
+> **Provenance & Ethics:** This repository transparently reconstructs my BE final-year project. Content, steps and figures are derived from my original VTU/SIT report; some artefacts are recreated for portfolio clarity. No confidential data is included.
 ---
 
 ## 📖 Project Overview
