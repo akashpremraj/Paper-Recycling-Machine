@@ -13,6 +13,8 @@ Commit message:
 
 A compact, low-cost **paper recycling machine** that integrates **pulping → forming → press rolling → drying** into a single bench-scale line. It’s designed for **schools, colleges, offices, and small units** where a full-scale mill isn’t viable, prioritising **safety, footprint, and ease of operation**.
 
+> 📄 **Full project report (SIT, 2020):** `docs/Final_Report_Paper_Recycling_Machine_2020.pdf`
+
 **Why this matters**
 - Diverts paper waste from bins; demonstrates **closed-loop recycling** on-site.
 - Converts mixed office waste into **usable A5/A4 craft sheets** for teaching or prototyping.
@@ -496,14 +498,14 @@ project teammates for their support and encouragement.
 
 ## 🖼️ Figures (from report)
 
-*Figure 15 — Working principle*  
-![Figure 15: Working principle](images/report-figures/fig-15-working-principle.png)
+*Figure 5.1 — Working principle (report p.9)*  
+![Working principle](images/report-figures/fig-15-working-principle.png)
 
-*Figure 16 — Front view*  
-![Figure 16: Front view](images/report-figures/fig-16-front-view.png)
+*Figure 6.1 — Front view (report p.10)*  
+![Front view](images/report-figures/fig-16-front-view.png)
 
-*Figure 17 — Top view*  
-![Figure 17: Top view](images/report-figures/fig-17-top-view.png)
+*Figure 6.3 — Top view (report p.11)*  
+![Top view](images/report-figures/fig-17-top-view.png)
 
 ---
 
@@ -512,7 +514,8 @@ project teammates for their support and encouragement.
 [1] A. Thakur and S. Monroe, “Design and fabrication of a compact paper recycling machine,” Paper Technology, vol. 139, pp. 250–261, 2017.  
 [2] A. Ghosh, “Fundamentals of paper drying: Theory and applications from an industrial perspective,” Paper Recycling Technology, vol. 178, pp. 65–71, 2011.  
 [3] C. Jiang and J. Ma, “Deinking of waste paper: Flotation methods,” Enzymatic Deinking Technologies, vol. 1, no. 2, 2000.  
-[4] A. P. Raj, *Design and Fabrication of Paper Recycling Machine*. Srinivas Institute of Technology, 2020. (Final report)
+[4] A. P. Raj, *Design and Fabrication of Paper Recycling Machine*. Srinivas Institute of Technology, 2020. (Final report)  
+PDF: `docs/Final_Report_Paper_Recycling_Machine_2020.pdf`
 
 ---
 
