@@ -295,6 +295,11 @@ At 5 bar with two cylinders across a 330 mm width, an ~**83 mm bore** pair gives
 
 > Full, editable list lives in **`docs/bom_costs_2020_INR.csv`** (bench-scale, India 2020 prices).
 
+> **Bill of Materials (CSV)**
+>
+> - India, 2020 price basis (INR): [`docs/bom_costs_2020_INR.csv`](docs/bom_costs_2020_INR.csv)  
+> - Current BOM (specify scope/currency): [`docs/bom_costs.csv`](docs/bom_costs.csv)
+
 ---
 
 ## 📅 Timeline (1-month plan with deliverables)
