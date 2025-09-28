@@ -335,7 +335,8 @@ gantt
 
 ## ⚠️ Safety Notes (operator essentials)
 
-> Only trained users may operate this machine. Follow local H&S policy and the SOP.
+> Only trained users may operate this machine. Follow local H&S policy and the
+> [SOP](docs/sop_operations.md) and [Safety & Risks](docs/safety-and-risks.md).
 
 ### Pre-start (2–3 min)
 - E-stop test (press → machine stops → reset).
@@ -364,7 +365,8 @@ gantt
 - Pneumatics → regulator + gauge, LOTO, controlled venting.
 - Electrical → IP-rated enclosure, MCB/overload, earth check.
 
-> Details in **docs/safety-and-risks.md** and **docs/sop_operations.md**.
+> See [Safety & Risks](docs/safety-and-risks.md) for hazards … and the
+> [SOP](docs/sop_operations.md) for start-up/shutdown/cleaning.
 
 ---
 
@@ -374,7 +376,8 @@ gantt
 - **Low build cost** — off-the-shelf components and simple fabrication keep costs down (see `docs/bom_costs_2020_INR.csv`).
 - **Energy-efficient drive** — 1 HP motor with 42:1 gearbox and pulley step-up delivers the required torque at low power.
 - **Fast demonstration cycles** — produces handleable sheets within minutes (bench line speed ≈ 0.3 m·s⁻¹).
-- **Simple operation & upkeep** — basic controls, easy belt tracking, and straightforward cleaning SOP.
+- - **Simple operation & upkeep** — basic controls, easy belt tracking, and straightforward cleaning
+  [SOP](docs/sop_operations.md).
 - **Safety-first design** — guarded nip points, marked HOT zones, and a single accessible e-stop.
 - **Waste reduction & teaching value** — turns office waste into usable sheets, illustrating closed-loop recycling.
 
@@ -399,8 +402,9 @@ gantt
 - **Limited web width** — ~330 mm effective width caps sheet size.  
   *Mitigation:* stitch narrower sheets or redesign roller span for wider formats.
 
-- **Safety constraints of small rigs** — close clearances, hot surfaces, and nips demand supervision.  
-  *Mitigation:* enforced guards, e-stop checks, SOP adherence (see `docs/safety-and-risks.md`).
+- **Safety constraints of small rigs** … *Mitigation:* enforced guards, e-stop checks, SOP adherence
+  (see [Safety & Risks](docs/safety-and-risks.md) and the [SOP](docs/sop_operations.md)).
+
 
 ---
 
